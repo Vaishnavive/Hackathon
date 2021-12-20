@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array</title>
+</head>
+<body>
+    <p id="calc"></p>
+    <button onclick="result()">Click here</button>
+    <script>
+        function result(){
+            var a = [1,2,3,4,5,6,7,8];
+            var text = "";
+            for (i=0;i<a.length;i++)
+            {
+                text+=a[i]+"<br>"
+            }
+            document.getElementById("calc").innerHTML = text;
+        }
+    </script>
+</body>
+</html>
